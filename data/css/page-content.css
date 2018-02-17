@@ -1,0 +1,20 @@
+.galleries-wrapper {
+	overflow: hidden;
+	max-width: 1000px;
+}
+.gallery-image-wrapper {
+	float: left;
+	width: 215px; 
+	margin-left: 20px;
+}
+.gallery-image {
+	display: block; 
+	width: 100%;
+}
+.gallery-title {
+	display: inline-block; 
+	vertical-align: middle;
+}
+.api_url {
+	width: 300px;
+}

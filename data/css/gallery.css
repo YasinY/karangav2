@@ -1,0 +1,37 @@
+.img-list {
+	position: relative;
+}
+
+.img-list li {
+  display: inline-block;
+  margin: 0 1em 1em 0;
+  position: relative;
+  width: 29%;
+
+}
+
+.text-content {
+  background: rgba(0,0,0,0.4);
+  color: white;
+  left: 0;
+  position: absolute;
+  top: 0;
+  height: 100%;
+  opacity: 0;
+  -webkit-transition: opacity 500ms;
+  -moz-transition: opacity 500ms;
+  -o-transition: opacity 500ms;
+  transition: opacity 500ms;
+}
+
+.img-list li:hover span.text-content {
+  opacity: 1;
+}
+
+.text-content span {
+  display: inline-block;
+  margin-top: 30%;
+  padding-left: 3%;
+  padding-right: 4%;
+  text-align: center;
+}

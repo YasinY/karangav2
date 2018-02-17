@@ -1,0 +1,22 @@
+
+.content-wrapper {
+	background: lightgrey;
+	border: solid 1px gray;
+	float: left;
+	min-height: 450px;
+	padding: 2px;
+	width: 32%;
+}
+.gallery-image {
+		display: inline-block;
+		position: relative;
+		width: 100%;
+	}
+.properties {
+	min-height: 160px;
+	text-align: center;
+}
+
+.properties button {
+	height: 10%;
+}
